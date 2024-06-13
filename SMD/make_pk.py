@@ -23,6 +23,7 @@ train_data = np.concatenate(train_data, axis=0)
 test_data = np.concatenate(test_data, axis=0)
 test_label = np.concatenate(test_label, axis=0)
 
+print('  Dumping pickle files...')
 with open(pth + 'SMD.pk', 'wb') as file:
     pk.dump({'train_data': train_data, 'test_data': test_data, 'test_label': test_label}, file)
 

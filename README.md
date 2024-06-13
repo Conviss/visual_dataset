@@ -17,11 +17,30 @@ https://github.com/eBay/RANSynCoders/tree/main/data
 
 
 
-### SMD 数据集
+#### SMD 数据集
 
 数据集可在以下位置下载：
 
 https://github.com/NetManAIOps/OmniAnomaly/tree/master/ServerMachineDataset
+
+
+
+#### MSL 和 SMAP 数据集
+
+数据集可通过以下方式下载
+
+labeled_anomalies.csv：数据处理和两个航天器数据分离依靠此文件
+
+
+```
+wget https://s3-us-west-2.amazonaws.com/telemanom/data.zip
+wget https://raw.githubusercontent.com/khundman/telemanom/master/labeled_anomalies.csv
+```
+
+
+
+
+
 
 
 
